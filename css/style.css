@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 14px "Roboto", sans-serif;
+    color: #333;
+    background: #eaebec;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.cabecalho {
+    height: 40px;
+    padding: 30px;
+    text-align: left;
+    background: red;
+    overflow: hidden;
+}
+
+.menu {
+    background-color: green;
+    overflow: hidden;
+}
+
+.menu ul{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.menu ul, li{
+    padding: 0;
+    margin: 0;
+}
+
+.menu li, a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu a {
+    padding: 15px 30px;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.row {
+    padding: 10px;
+}
+
+#primeira {
+    float: left;
+    width: 70%;
+    background-color: greenyellow;
+    margin: 10px;
+}
+
+#segunda {
+    float: left;
+    width: 25%;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rodape {
+    padding: 30px;
+    background: yellow;
+    text-align: center;
+    margin-top: 20px;
+}
